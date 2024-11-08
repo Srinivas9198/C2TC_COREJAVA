@@ -9,7 +9,7 @@ public class overloadingdemo {
 		Point p = new Point(); //default constructor invoked
 		System.out.println(p);
 
-		Point p1 = new Point(14.5f, 0); //single parameter constructor
+		Point p1 = new Point(15.5f, 0); //single parameter constructor
 		System.out.println(p1);
 
 		Point p2 = new Point(12.5f, 20.50f); //two paramters constructor
