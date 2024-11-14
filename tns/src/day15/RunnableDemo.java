@@ -2,10 +2,6 @@ package day15;
 
 public class RunnableDemo {
 	public static void main(String[] args) {
-		//using implementable class
-		UsingRunnable obj = new UsingRunnable(10, 20, "Hello");
-		
-
 		Runnable runnable = new Runnable() {
 			@Override
 			public void run() { // anonymous class
